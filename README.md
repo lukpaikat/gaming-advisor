@@ -1,2 +1,2 @@
 # gaming-advisor
-Landing page for OdinProject assignment
+Landing page for a fictional website to complete OdinProject assignment
