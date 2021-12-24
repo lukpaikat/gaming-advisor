@@ -1,12 +1,54 @@
-body {
+@import url(./styles/general.css);
+
+header {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .header-logo {
+  display: flex;
   margin: 0;
+  padding: .1em;
+  align-items: center;
+}
+
+header ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  gap: 5px;
+}
+
+header li {
+  display: block;
+  flex: 1 1 auto;
+}
+
+header a {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+header img {
+  display: block;
 }
 
 .hero {
   color: #f8f8f8;
-  padding: 2em 1em;
+  padding: calc(44px + 2em) 1em 2em 1em;
   display: flex;
-  background-image: linear-gradient(to right top, #7d6592, #996997, #b56e97, #cf7392, #e57b89);
+  background-image: linear-gradient(to right top, #846394, #5a537c, #364160, #1b2e42, #0a1b25);;
+  display: flex;
 }
 
 .hero-text {
@@ -16,6 +58,7 @@ body {
 }
 
 .hero-text h1 {
+  font-family: 'Heebo', sans-serif;
   font-size: 3rem;
   margin: .5em 0;
 }
@@ -27,7 +70,7 @@ body {
   width: fit-content;
   padding: 1em;
   border-radius: 10px;
-  background-color: #FF9671;
+  background-color: #FF9C5B;
 }
 
 /* --------- 
@@ -41,7 +84,9 @@ body {
 }
 
 .images {
+  object-fit: cover;
   width: 100%;
+  height: 100%;
   display: block;
   margin: 0;
 }
