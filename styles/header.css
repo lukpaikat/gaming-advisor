@@ -5,6 +5,9 @@ header {
   height: 44px;
   display: flex;
   justify-content: space-between;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 header .header-logo {
