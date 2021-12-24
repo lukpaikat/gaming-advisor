@@ -1,12 +1,11 @@
 .hero {
   color: #f8f8f8;
-  padding: calc(44px + 3em) 1em 3em 1em;
+  padding: calc(44px + 5em) 1em 5em 1em;
   background-image: linear-gradient(to right top, #846394, #5a537c, #364160, #1b2e42, #0a1b25);
 }
 
 .hero-flex {
   display: flex;
-  align-items: center;
   gap: 2em;
 }
 
@@ -42,7 +41,7 @@
 .images {
   object-fit: cover;
   width: 100%;
-  max-height: 300px;
+  height: 100%;
   display: block;
   margin: 0 auto;
 }
