@@ -1,0 +1,33 @@
+
+.cta-flex {
+  margin: 2em auto;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #846394;
+}
+
+.cta-button {
+  color: #f8f8f8;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #FF9C5B;
+}
+
+.cta-item {
+  color: #f8f8f8;
+  padding: .5em 2em;
+}
+
+.cta-item h2 {
+  text-align: left;
+  margin-bottom: .5em;
+}
+
+.cta-item p {
+  margin-top: .5em;
+}
