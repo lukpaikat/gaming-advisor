@@ -1,0 +1,17 @@
+.quote {
+  background-color: #84639465;
+}
+
+.quote article {
+  padding: 2em 1em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quote .quote-content {
+  font-size: 1.25rem;
+}
+
+.quote .quotee {
+  text-align: right;
+}
