@@ -1,11 +1,12 @@
 .hero {
   color: #f8f8f8;
-  padding: calc(44px + 5em) 1em 5em 1em;
+  padding: calc(44px + 4em) 1em 2em 1em;
   background-image: linear-gradient(to right top, #846394, #5a537c, #364160, #1b2e42, #0a1b25);
 }
 
 .hero-flex {
   display: flex;
+  flex-direction: column;
   gap: 2em;
 }
 
