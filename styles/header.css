@@ -46,3 +46,9 @@ header a {
 header img {
   display: block;
 }
+
+@media screen and (min-width: 600px) {
+  header {
+    flex-direction: row;
+  }
+}
