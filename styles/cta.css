@@ -32,3 +32,12 @@
 .cta-item p {
   margin-top: .5em;
 }
+
+@media screen and (min-width: 600px) {
+  .cta-flex {
+    flex-direction: row;
+  }
+  .cta-item {
+    padding: .5em 2em;
+  }
+}
