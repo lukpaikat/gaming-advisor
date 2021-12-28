@@ -56,3 +56,9 @@
 .images:hover + .reverals {
   display: block;
 }
+
+@media screen and (min-width: 780px) {
+  .hero-flex {
+    flex-direction: row;
+  }
+}
